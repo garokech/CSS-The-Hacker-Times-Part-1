@@ -9,7 +9,7 @@ body {
     background-color: #eee;
     margin: 50px;
     box-shadow: 10px 19px 3px rgb(50, 49, 49);
-    border: 2px solid black;
+  
 }
 #Article{
     font-size: 70px;
@@ -51,4 +51,8 @@ section{
     border: 6px;
     margin: 50px;
     padding-bottom: 2%;
+}
+
+.newspaper-container {
+    border-radius: 50%;
 }
