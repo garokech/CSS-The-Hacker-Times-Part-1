@@ -39,6 +39,7 @@ ul{
 li {
     display: inline-block;
     padding-left: 3%;
+    font-size: 11px;
 }
 
 a:visited {
@@ -60,8 +61,46 @@ section{
 }
 
 .newspaper-container {
-    background-color: white;
     width: 700px;
-    box-shadow: 2px 2px rgba(153, 14, 14, 0.197);
-    margin: auto;
+    margin: 3em auto;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 1px 1px 5px rgba(193, 10, 226, 0.812);
+}
+
+h5{
+    color:rgba(193, 10, 226, 0.812);
+}
+
+nav {
+    position: sticky;
+    top: 1px;
+    background-color: white;
+}
+nav li{
+    display: inline;
+}
+
+.more-articles {
+    border-top: 1px solid #eee;
+    margin-top: 1.5em;
+    text-align: center;
+  }
+
+#Top-section {
+    color: green;
+    display: inline-block;
+    width: 200px;
+    margin: 0 1em;
+}
+#Bottom-section{
+    color: pink;
+    display: inline-block;
+    width: 200px;
+    margin: 0 6em;
+}
+#Bottom-title {
+    text-align: center;
 }
